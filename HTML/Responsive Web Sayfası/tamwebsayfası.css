@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    line-height: 1.5;
+    text-align: center;
+    font-size: 1.6rem;
+    background-color: #333;
+    color: #fff;
+}
+html{
+    font-size: 10px;
+}
+a{
+    text-decoration: none;
+}
+p{
+    padding: 1.6rem;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+
+
+/*header */ 
+header{
+    height: 45rem;
+
+}
+
+header .bg-image{
+    position: absolute;
+    
+    background-image:url(bg.jpeg);
+    background-size: cover;
+    background-position:center ;
+    height: 45rem;
+    opacity: 0.5;
+    width: 100%;
+    z-index: 1;
+}
+header h1{
+    padding: 11rem;
+    padding-bottom:0 ;
+}
+.btn{
+background: #333;
+color: #fff;
+border:1px solid #666;
+padding: 1.6rem 3.2rem;
+margin: .5rem 0;
+display: inline-block;
+transition: all 0.3sn;
+
+
+}
+.btn:hover{
+background: #eaeaea;
+color: #333;
+}
+
+#seciton-a{
+    background: #eaeaea;
+    color: #333;
+    padding: 3.2rem 0;
+}
+#section-b{
+padding: 2rem;
+
+}
+#section-b ul{
+    list-style: none;
+
+}
+#section-b li{
+    background: #fff;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+.col-content{
+    padding: 5rem;
+}
+#section-c{
+    background: #eaeaea;
+    color: #333;
+    padding: 5rem;
+}
+#section-d .box{
+    padding: 5rem;
+}
+#section-d .box:first-child{
+    background-color: blue;
+
+}
+

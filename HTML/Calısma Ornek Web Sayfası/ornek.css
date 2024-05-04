@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #333;
+    text-align: center;
+    font-size: 3.2rem;
+
+}
+html{
+    font-size: 10px;
+}
+.resim h1, p{
+    padding-top: 10rem;
+    position: relative;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+header{
+    height: 45rem;
+   background: red;
+    width: auto;
+}
+header .resim{
+    
+    height: 45rem;
+}
+.btn{
+ background-color: black;   
+ border: solid 1px black;
+ display: inline-block;
+}

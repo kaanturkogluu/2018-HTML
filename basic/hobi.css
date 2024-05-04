@@ -1,0 +1,42 @@
+
+
+body{
+    background-image: url("hobi.jpg");
+    background-position: center;
+    background-repeat:round;
+    color: rgb(21, 21, 22);
+font-size: 18px;
+  font-weight: bold;
+    background-attachment: fixed;
+}
+
+.container{
+   width: 98vw;
+  
+    height: calc(100vh - 15vh);
+    position: relative;
+    top: 85px;
+    text-align: center;
+}
+
+.hobi-text{
+    display: inline-block;
+    padding: 8px 16px;
+    text-align: center;
+    background-color: #332f2b1f;
+    margin: 25px;
+  
+
+
+}
+
+span a{
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    height: 25px;
+}
+html {
+    scroll-behavior: smooth;
+  }
+  

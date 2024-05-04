@@ -1,0 +1,115 @@
+.container {
+    width: 100vw;
+    margin: 15px;
+    height: 100vh;
+
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("https://cdn.create.vista.com/api/media/small/186733912/stock-photo-writing-text-showing-blog-website");
+   
+  
+
+}
+
+nav {
+    position: absolute;
+    top: 35px;
+    left: 30%;
+
+    display: block;
+    width: 35vw;
+}
+
+header nav a {
+    text-decoration: none;
+    padding: 8px 16px;
+    display: inline-block;
+    margin-left: 25px;
+    padding-left: 25px;
+    border: 1px black double;
+    background-color: rgb(97, 91, 91);
+    color: white;
+    width: 6vw;
+    text-align: center;
+
+}
+
+header nav a:hover {
+    background-color: rgb(238, 175, 238);
+    color: rgb(67, 123, 139);
+    box-shadow: 8px 16px rgb(128, 128, 128, .7);
+    transition: backgorund-color 2s;
+}
+
+.icerik {
+    width: 40vw;
+    padding: 10px;
+
+    display: block;
+    height: 75vh;
+    position: absolute;
+    left: 10px;
+    top: 180px;
+    background-color: rgb(97, 91, 91);
+
+}
+
+.text-box {
+    height: 27%;
+    width: inherit;
+    border: 1px solid black;
+    margin-bottom: 30px;
+    display: block;
+    text-align: center;
+    background-color: #dbb2821f;
+    text-align: center;
+    
+
+    margin-top: 10px;
+    padding-top: 10px;
+    font-size: 24px;
+
+
+
+}
+.resim img{
+    display: inline;
+    height: 80px;
+    position: absolute;
+    top: 35px;
+
+    left: 15px;
+
+  
+
+}
+a{
+    text-decoration: none;
+}
+.resim img+h2{
+    position: relative;
+    top: 45px;
+ 
+}
+.resim p{
+display: inline-block;
+border-bottom: 2px double grey;
+}
+
+#yazar {
+    position: absolute;
+    top: 25%;
+    right: 3%;
+    height: 50vh;
+    width: 20vw;
+
+    border: 1px solid black;
+    text-align: center;
+    background-color:rgb(187, 178, 178) ;
+
+}
